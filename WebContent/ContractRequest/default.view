@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<view>
+  <property name='pageManagedBean' value='ContractRequestDefaultviewView' />
+  <property name='preferencesBean' value='ContractRequest' />
+  <design-time-attribute name='portlet' value='ContractRequest' />
+  <control component-type='javax.faces.HtmlForm' renderer-type='javax.faces.Form'>
+    <property name='defaultFocus' value='_first' />
+    <property name='id' value='defaultForm' />
+    <control component-type='com.webmethods.caf.faces.output.Frame' renderer-type='com.webmethods.caf.faces.output.Frame'>
+      <property name='id' value='frame' />
+      <property name='style' value='width:100%;&#13;&#10;height: 100%;&#13;&#10;position: absolute;' />
+      <facet name='href'>
+        <control component-type='com.webmethods.caf.faces.output.IncludeHTML' renderer-type='com.webmethods.caf.faces.output.IncludeHTML'>
+          <property name='id' value='includeHTML' />
+          <property name='value' value='/ContractRequest/index.html' />
+        </control>
+      </facet>
+    </control>
+  </control>
+</view>

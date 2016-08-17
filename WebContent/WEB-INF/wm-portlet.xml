@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<wm-portlet-app version="1.0">
+	<wm-portlet>
+		<portlet-name>ContractRequest</portlet-name>
+		<category>_MyTask01</category>
+	</wm-portlet></wm-portlet-app>
+
